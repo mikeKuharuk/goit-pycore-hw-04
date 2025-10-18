@@ -1,0 +1,13 @@
+Alex Korp,3000
+Nikita Borisenko,2000
+Sitarama Raju,1000
+Mykhailo Kukharuk,5000
+Steve Jobs,7000
+Stanley Hudson,4000
+Dwight Shrute,5000
+Steve Tomorrow,2000
+Some mistake left for some reason here
+123456
+
+Joshua with string Salary, Ten thousands
+2000,Stefany Vice Versa
