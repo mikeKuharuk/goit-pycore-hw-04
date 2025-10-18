@@ -6,3 +6,6 @@
 60b90c4613067a15887e1ae6,Moorchik,16
 60b90c4613067a15887e1ae6,Moorka,14
 60b90c4613067a15887e1ae6,Odin,5
+anotherId,CatName,Five
+,,,
+some,some

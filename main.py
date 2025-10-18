@@ -5,8 +5,7 @@ while True:
     print("\nWhat would you like to do?"
           "\n0. Exit"
           "\n1. Calculate salaries"
-          "\n2. Get Cat data"
-          "\n4. Open Bot assistant\n")
+          "\n2. Get Cat data")
     choice = input("Enter your choice: ")
 
     if choice == "0":
@@ -37,9 +36,6 @@ while True:
             print("Function did not return any data")
         else:
             print(f"Cat info:\n {cats_info}")
-
-    elif choice == "4":
-        continue
 
     else:
         print("Invalid choice, please try again!")

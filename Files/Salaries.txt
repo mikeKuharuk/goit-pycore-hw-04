@@ -11,3 +11,5 @@ Some mistake left for some reason here
 
 Joshua with string Salary, Ten thousands
 2000,Stefany Vice Versa
+Maybe with no salary,
+,

@@ -28,6 +28,8 @@ def main():
     if len(sys.argv) > 1:
         directory_in_sys_argument = sys.argv[1]
         draw_directory(directory_in_sys_argument)
+    else:
+        print("No args provided! Please provide a directory path as argument")
 
 if __name__ == "__main__":
     main()
