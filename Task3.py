@@ -12,6 +12,7 @@ def draw_directory(directory: str, depth = 0):
 
     for directory_element in path.iterdir():
 
+        # Lets add prefix for better readability of nested paths
         prefix = ""
         if depth > 0:
             prefix += "   "*depth
@@ -26,6 +27,7 @@ def draw_directory(directory: str, depth = 0):
 
 def main():
     if len(sys.argv) > 1:
+        # Expected that first argument is path to target folder, all other args ignored
         directory_in_sys_argument = sys.argv[1]
         draw_directory(directory_in_sys_argument)
     else:
