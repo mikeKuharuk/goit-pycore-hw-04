@@ -1,5 +1,5 @@
-import Task1
-import Task2
+import task1
+import task2
 
 while True:
     print("\nWhat would you like to do?"
@@ -18,7 +18,7 @@ while True:
         if path == "default":
             path = "Files/Salaries.txt"
 
-        total_and_average_salary = Task1.total_salary(path)
+        total_and_average_salary = task1.total_salary(path)
 
         if total_and_average_salary is None:
             print("Function did not return any data")
@@ -31,7 +31,7 @@ while True:
         if path == "default":
             path = "Files/CatsInfo.txt"
 
-        cats_info = Task2.get_cats_info(path)
+        cats_info = task2.get_cats_info(path)
         if cats_info is None:
             print("Function did not return any data")
         else:
