@@ -18,10 +18,10 @@ def draw_directory(directory: str, depth = 0):
             prefix += "   "*depth
 
         if directory_element.is_dir():
-            print(Fore.BLUE + f"{prefix}{directory_element}")
+            print(Fore.BLUE + f"{prefix}{directory_element.name}/")
             draw_directory(str(directory_element), depth + 1)
         else:
-            print(Fore.GREEN + f"{prefix}{directory_element}")
+            print(Fore.GREEN + f"{prefix}{directory_element.name}")
 
 
 
